@@ -1,0 +1,21 @@
+{
+  imports = [
+    ./audio.nix
+    ./bluetooth.nix
+    ./boot.nix
+    ./cosas.nix
+    ./desktop-environment.nix
+    ./env.nix
+    ./flatpak.nix
+    ./home-manager.nix
+    ./java.nix
+    ./net.nix
+    ./nix.nix
+    ./nvidia.nix
+    ./obs-studio.nix
+    ./steam.nix
+    ./timezone.nix
+    ./user.nix
+    ./virt-manager.nix
+  ];
+}
