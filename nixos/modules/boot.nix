@@ -14,11 +14,8 @@
     };
   };
 
-  boot.kernelPackages = pkgs.linuxPackages_latest;
+  boot.kernelPackages = pkgs.linuxPackages_6_12;
   boot.initrd.kernelModules = [ "nvidia" "i915" "nvidia_modeset" "nvidia_drm" ];
   boot.kernelParams = [ "intel_idle.max_cstate=4" "nvidia-drm.modeset=1" ];
   
-  # boot.blacklistedKernelModules = lib.mkDefault [ "i915" ];
-  # KMS will load the module, regardless of blacklisting
-  # boot.kernelParams = lib.mkDefault [ "i915.modeset=0" ];
 }

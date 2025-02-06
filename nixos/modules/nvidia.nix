@@ -1,11 +1,14 @@
 {
   # Set NVIDIA drivers
-  hardware.graphics.enable = true;
-  hardware.graphics.enable32Bit = true;
+  hardware.graphics = {
+    enable = true;
+    enable32Bit = true;
+  }; 
+  
   services.xserver.videoDrivers = [ "nvidia" ];
 
   hardware.nvidia = {
-    open = false; # True for the open kernel modules
+    open = true; # True for the open kernel modules
     modesetting.enable = true;
     nvidiaSettings = true;
     # forceFullCompositionPipeline = true;

@@ -12,7 +12,6 @@
       element-desktop
       gapless
       gnome-tweaks
-      lunar-client
       lutris
       mission-center
       obsidian
@@ -27,6 +26,7 @@
       vscode
 
       # CLI Programs
+      bat
       fastfetch
       freshfetch
       mesa-demos
@@ -41,6 +41,7 @@
       # Utils
       adw-gtk3
       ddcutil
+      mangohud
       pciutils
       vivaldi-ffmpeg-codecs
       vulkan-tools
