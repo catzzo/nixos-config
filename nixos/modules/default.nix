@@ -5,7 +5,6 @@
     ./boot.nix
     ./cosas.nix
     ./desktop-environment.nix
-    ./env.nix
     ./flatpak.nix
     ./home-manager.nix
     ./java.nix

@@ -10,17 +10,22 @@
       bitwarden-desktop
       brave
       element-desktop
+      foliate
       gapless
       gnome-tweaks
       lutris
       mission-center
       obsidian
+      papers
       prismlauncher
       ptyxis
+      refine
       resources
       ryujinx
       shortwave
       thunderbird
+      upscaler
+      varia
       vesktop
       vivaldi
       vscode
