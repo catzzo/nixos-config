@@ -45,6 +45,7 @@
     blanket
     flowtime
     gradia
+    fractal
 
     # CLI
     bat

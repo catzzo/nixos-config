@@ -19,9 +19,10 @@
   ];
 
   # Set to fix some GNOME 49 related graphical issues
-  environment.variables = {
-    GSK_RENDERER = "gl";
-  };
+  # https://www.reddit.com/r/gnome/comments/1p2u84c/heavy_glitching_of_the_gnome_49_ui_after_an_update/
+  # environment.variables = {
+  #   GSK_RENDERER = "gl";
+  # };
 
    qt = {
     enable = true;
