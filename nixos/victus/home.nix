@@ -14,6 +14,7 @@
   nixpkgs.config.allowUnfree = true;
   home.packages = with pkgs; [
     anki
+    audacity
     bitwarden-desktop
     brave
     element-desktop
