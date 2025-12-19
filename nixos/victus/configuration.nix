@@ -11,6 +11,7 @@
       ./modules
       ./../common
       ./../common/gnome.nix # Desktops ara under common, but not included in the default.nix
+      ./../common/cosmic.nix
     ];
 
 
@@ -67,7 +68,7 @@
     wayland-utils # Wayland utilities
     wl-clipboard # Command-line copy/paste utilities for Wayland
 
-    # protonvpn-gui
+    protonvpn-gui
 
   ];
 

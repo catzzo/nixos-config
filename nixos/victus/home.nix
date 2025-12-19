@@ -47,13 +47,18 @@
     flowtime
     gradia
     fractal
+    pavucontrol
 
     # CLI
     bat
     mangohud
     ocrmypdf
     pdfsandwich
+
+    # TUIs
+    nbsdgames
     zellij
+
 
     # a
     scantailor-advanced
@@ -66,6 +71,7 @@
 
     # Utilitis
     discord-rpc
+    mesa-demos
 
   ];
 

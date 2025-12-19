@@ -9,6 +9,7 @@
     ./../../../common/hm/helix.nix
     ./../../../common/hm/wezterm.nix
     ./../../../common/hm/zoxide.nix
+    ./../../../common/hm/fish.nix
     # ./../../../common/hm/zellij.nix
     
     # From nixos common:

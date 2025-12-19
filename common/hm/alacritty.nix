@@ -1,6 +1,8 @@
 {
   programs.alacritty = {
     enable = true;
+    # theme = "vesper";
+    theme = "oxocarbon";
     settings = {
 
       terminal.shell = "/run/current-system/sw/bin/fish";
@@ -18,7 +20,7 @@
 
         dynamic_padding = true;
         # opacity = 0.9;
-        # decorations = "none";
+        decorations = "none";
       };
 
       font = {
