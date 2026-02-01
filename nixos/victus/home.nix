@@ -38,6 +38,7 @@
     motrix
     kdePackages.okular
     ptyxis
+    qutebrowser
     logseq
     recordbox
     cavalier
@@ -47,7 +48,8 @@
     flowtime
     gradia
     fractal
-    pavucontrol
+    stable.zed-editor
+    qbittorrent
 
     # CLI
     bat

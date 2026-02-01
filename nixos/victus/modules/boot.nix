@@ -8,7 +8,7 @@
   boot.loader.efi.canTouchEfiVariables = true;
 
   # Use latest kernel.
-  boot.kernelPackages = pkgs.linuxPackages_6_17;
+  boot.kernelPackages = pkgs.linuxPackages_latest;
   boot.kernelParams = [ "quiet" "splash" "acpi_osi=linux" "intel_idle.max_cstate=4" ];
   boot.plymouth.enable = true;
 

@@ -3,7 +3,7 @@
 {
   imports = [
     inputs.dankMaterialShell.homeModules.dankMaterialShell.default
-    inputs.niri.homeModules.niri
+    # inputs.niri.homeModules.niri
   ];
 
   programs.dankMaterialShell = {

@@ -5,11 +5,11 @@
     # ./quickshell.nix # to enable quickshell
   ];
   
-  nixpkgs.overlays = [ inputs.niri.overlays.niri ];
+  # nixpkgs.overlays = [ inputs.niri.overlays.niri ];
 
   programs.niri = {
     enable = true;
-    package = pkgs.niri-unstable;
+    # package = pkgs.niri-unstable;
   };
 
   environment.systemPackages = with pkgs; [

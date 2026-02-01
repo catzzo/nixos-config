@@ -10,8 +10,6 @@
       ./hardware-configuration.nix
       ./modules
       ./../common
-      ./../common/gnome.nix # Desktops ara under common, but not included in the default.nix
-      ./../common/cosmic.nix
     ];
 
 
@@ -51,7 +49,6 @@
      isNormalUser = true;
      extraGroups = [ "wheel" ]; # Enable ‘sudo’ for the user.
      packages = with pkgs; [
-      # tree
      ];
    };
 
@@ -61,26 +58,20 @@
     fish
     # wget
     neovim
-    
-    # Non-KDE graphical packages
+  
     hardinfo2 # System information and benchmarks for Linux systems
     vlc # Cross-platform media player and streaming server
     wayland-utils # Wayland utilities
     wl-clipboard # Command-line copy/paste utilities for Wayland
 
     protonvpn-gui
+    pwvucontrol
+    scrcpy
 
   ];
 
   # List services that you want to enable:
   services.flatpak.enable = true;
-
-  # Open ports in the firewall.
-  # networking.firewall.allowedTCPPorts = [ ... ];
-  # networking.firewall.allowedUDPPorts = [ ... ];
-  # Or disable the firewall altogether.
-  # networking.firewall.enable = false;
-
 
   system.stateVersion = stateVersion; # Did you read the comment?
 

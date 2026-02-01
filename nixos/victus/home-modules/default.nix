@@ -13,6 +13,6 @@
     # ./../../../common/hm/zellij.nix
     
     # From nixos common:
-    ./../../common/home-manager/dankMaterialShell.nix
+    # ./../../common/home-manager/dankMaterialShell.nix
   ];
 }

@@ -6,12 +6,14 @@
     # common
     ./../../common/localsend.nix
     ./../../common/virt-manager.nix
-    ./../../common/niri.nix
-    #
-    # ./../../common/obs.nix
+    ./../../common/obs.nix
+    ./../../common/java.nix
 
     # Desktop
-    # ./../../common/gnome.nix # Currently declared on the config.nix IDKW
+    # ./../../common/gnome.nix 
     # ./../../common/niri.nix
+    ./../../common/plasma.nix
+    # ./../../common/cosmic.nix
+    ./../../common/river.nix
   ];
 }
